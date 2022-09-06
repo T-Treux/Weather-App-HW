@@ -1,4 +1,3 @@
-# Weather-App-HW
 <!DOCTYPE html>
 <html lang="en">
   <head>
