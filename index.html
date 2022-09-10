@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,20 +40,21 @@
               <input
                 type="submit"
                 value="Current"
-                class="CurrentLocationButton"
+                class="current-location-button"
               />
             </div>
           </div>
         </form>
          
         <h1 id= "city">
-          Park Forest, IL
         </h1>
        
         <ul>
           <li id="date"></li>
           <li>
-            Partly Cloudy
+            <span
+              id = "description">
+            </span>
           </li>
         </ul>
         <div class="row">
@@ -77,10 +79,10 @@
                 Precipitation: 0%
               </li>
               <li>
-                Humidity: 77%
+                Humidity: <span id ="humidity"></span>% 
               </li>
               <li>
-                Wind: 8 km/h
+                Wind:<span id ="wind"></span>km/h
               </li>
             </ul>
           </div>
@@ -88,8 +90,6 @@
       </div>
     </div>
     <script src="src/index.js"></script>
-
-    <p>
       <a href="https://github.com/T-Treux/Weather-App-HW" /a>Open Source </a>
         by Tiffannee Wallace
      </p>
